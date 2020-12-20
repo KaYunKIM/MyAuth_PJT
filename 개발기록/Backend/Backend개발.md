@@ -65,12 +65,14 @@ $ pip install django-cors-headers
   ```
   
   
-
-### 관리가 계정 생성  
-
-```
+  
+  #### 관리자 계정 생성
+  
+  ```
   $ python manage.py createsuperuser
-```
+  ```
+  
+  
 
 ## 인증 구현
 
@@ -87,19 +89,19 @@ $ pip install django-cors-headers
 
 - rest-auth 설정
 
-  ```
-$ pip install django-rest-auth
-  ```
-  
+  ````
+  $ pip install django-rest-auth
+  ````
+
 - allauth 설정
 
   ```
   $ pip install django-allauth
   ```
 
-django-rest-framework 라이브러리 기반의 인증 기능이므로 DRF 설치 및 설정 필요
+Django-rest-framework 라이브러리 기반 인증 기능으로 DRF 설치 및 설정 필요
 
-- DRF 설정
+- DRF설정
 
   ```
   $ pip install django-rest-framework
