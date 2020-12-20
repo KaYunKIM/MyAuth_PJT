@@ -55,14 +55,16 @@ $ pip install django-cors-headers
 
   ![2](2.PNG)
 
-  ### migration
+  
+
+  #### migration
 
   ```
-$ python manage.py makemigrations
+  $ python manage.py makemigrations
   $ python manage.py migrate
   ```
-
-
+  
+  
 
 ### 관리가 계정 생성  
 
